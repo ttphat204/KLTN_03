@@ -15,7 +15,7 @@ Dự án này phát triển một ứng dụng web sử dụng trí tuệ nhân 
 - **Frontend:** React.js (cung cấp giao diện người dùng động).
 - **Backend:** Node.js với Express.js (xử lý logic và API).
 - **Database:** MongoDB (lưu trữ CV và dữ liệu người dùng).
-- **AI/ML:** Tích hợp thư viện như Natural Language Processing (NLP) (ví dụ: spaCy hoặc TensorFlow) để phân tích văn bản.
+- **AI/ML:** Tích hợp thư viện như Natural Language Processing (NLP) (ví dụ: spaCy hoặc NLTK (Python)) để phân tích văn bản.
 - **Công cụ hỗ trợ:** Git, Docker (tùy chọn), Postman (kiểm tra API).
 
 ## Kế hoạch phát triển (14/03/2025 - 15/07/2025)
