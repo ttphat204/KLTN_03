@@ -10,12 +10,14 @@ Dự án này phát triển một ứng dụng web sử dụng trí tuệ nhân 
 - **Báo cáo chi tiết:** Cung cấp phân tích về điểm mạnh, điểm yếu của CV.
 - **Giao diện thân thiện:** UI/UX được thiết kế đơn giản, dễ sử dụng.
 - **Lưu trữ và quản lý:** Lưu CV của người dùng trên đám mây với MongoDB.
+- **Dự đoán khả năng CV qua ATS:** Đưa ra khả năng để vượt qua ATS - công cụ sàng lọc tự động của nhà tuyển dụng.
+- **Đưa ra câu hỏi luyện tập tuyển dụng thông minh:** Dựa trên CV và JD để đưa ra các câu hỏi phù hợp với tình huống phỏng vấn.
 
 ## Công nghệ sử dụng
 - **Frontend:** React.js (cung cấp giao diện người dùng động).
 - **Backend:** Node.js với Express.js (xử lý logic và API).
 - **Database:** MongoDB (lưu trữ CV và dữ liệu người dùng).
-- **AI/ML:** Tích hợp thư viện như Natural Language Processing (NLP) (ví dụ: spaCy hoặc NLTK (Python)) để phân tích văn bản.
+- **AI/ML:** Tích hợp thư viện như Natural Language Processing (NLP) (ví dụ: spaCy hoặc NLTK (Python)) để phân tích văn bản. Sử dụng DL(LSTM hoặc Transformer) để dự đoán khả năng CV qua ATS. 
 - **Công cụ hỗ trợ:** Git, Docker (tùy chọn), Postman (kiểm tra API).
 
 ## Kế hoạch phát triển (14/03/2025 - 15/07/2025)
@@ -24,9 +26,9 @@ Dự án sẽ được thực hiện trong 4 tháng, chia thành các giai đo�
 ### Giai đoạn 1: Nghiên cứu và Thiết kế (14/03/2025 - 28/03/2025 - 2 tuần)
 - Nghiên cứu về cách thức hoạt động của ATS và yêu cầu tối ưu CV.
 - Thu thập dữ liệu mẫu CV và từ khóa phổ biến.
-- Thiết kế giao diện cơ bản (wireframe) bằng Figma hoặc Adobe XD.
+- Thiết kế giao diện cơ bản (wireframe) bằng Figma.
 - Xác định mô hình AI phù hợp (NLP cho phân tích văn bản).
-- **Mốc hoàn thành:** Tài liệu nghiên cứu và bản thiết kế giao diện.
+- **Mốc hoàn thành:** Tài liệu nghiên cứu.
 
 ### Giai đoạn 2: Cài đặt Cơ sở hạ tầng (29/03/2025 - 18/04/2025 - 3 tuần)
 - Cài đặt môi trường phát triển MERN Stack.
@@ -54,5 +56,4 @@ Dự án sẽ được thực hiện trong 4 tháng, chia thành các giai đo�
 - Chuẩn bị demo và tài liệu cuối cùng.
 - **Mốc hoàn thành:** Ứng dụng trực tuyến, tài liệu hoàn chỉnh.
 
-## Hướng dẫn cài đặt (cho nhà phát triển)
-1. Clone repository:
+
